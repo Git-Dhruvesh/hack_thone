@@ -1,0 +1,6 @@
+{
+  "name": "MathPath AI - Smart Learning & Skill Development",
+  "description": "An intelligent education and skill-development platform featuring AI skill-gap analysis, personalized learning paths, adaptive assessments, course recommendations, and student performance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
