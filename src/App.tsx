@@ -154,6 +154,13 @@ export default function App() {
             setSelectedCourse(course);
             setCurrentScreen('course-detail');
           }}
+          onSelectLesson={(course, lessonId) => {
+            setSelectedCourse(course);
+            setActiveLessonId(lessonId);
+            setCurrentScreen('lesson-quiz');
+          }}
+          onUpdateStudent={handleUpdateStudent}
+          onAnswerQuestion={handleAnswerQuestion}
           onNavigate={setCurrentScreen}
         />
       )}
